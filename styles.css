@@ -1,0 +1,25 @@
+body{
+    max-height: 600px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px auto 15px auto;
+  }
+  input, button, section{
+    font-size: 25px;
+    text-align: center;
+  }
+  div{
+    display:flex;
+    flex-direction:column;
+  }
+  p{
+    display:flex;
+    flex-direction:row;
+    flex-flow:3;
+  }
+  td{
+    border: 1px solid black;
+    padding: 5px;
+  }
